@@ -68,16 +68,23 @@
     
     /*container*/
 
-    .container {
+    .header .container {
       display: flex;
       align-items: center;
-      padding-left: 215px;
-      padding-right: 215px;
-        /*width: 1200px;*/}
+    }
+
+    .container {
+      
+      width: 1200px;
+      margin: 0 auto;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+       
 
      /*nav*/
-
-
+    
+  
    .site-nav {
     display: flex;
     align-items: center;
@@ -171,30 +178,28 @@
 
     /*hero*/
 
-    .hero {
-    /*align-items: center;*/
-      padding-top: 200px;
-      padding-bottom: 200px;
-    
-      background-color: var(--secondary-background-color); 
+    .section {
+      padding-top: 94px;
+      padding-bottom: 94px;
     }
-
     
-    .title-box {
-      width: 696px;
-    margin-bottom: 0;
+    .section.hero {
+      background-color: var(--secondary-background-color);}
+    
+    .hero-title {
+    width: 696px;
     padding-bottom: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    }
 
-    .hero-title {
     color: var(--secondary-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 6%;
     } 
+
     /*button*/
 
     .button {
@@ -204,8 +209,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    
-    
     
     height: 50px;
     color: var(--section-background-color);
@@ -235,13 +238,8 @@
 
     .features {
       display: flex;
-      width: 1170px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 94px;
-      margin-bottom: 94px;
-      padding-left: 0;
-      padding-right: 0;
+      padding-left: 15px;
+      padding-right: 15px;
     }
 
     .feature-title {
@@ -269,6 +267,9 @@
        
     /*work*/ 
 
+    .section.work {
+      padding-top: 0;
+    }
 
      .section-title {
       width: 376px;
@@ -281,13 +282,10 @@
     }
 
     .work-items {
-      width: 1170px;
       display: flex;
       margin-left: auto;
       margin-right: auto;
       padding-left: 0;
-      margin-top: 0;
-      margin-bottom: 0;
     }
 
       
@@ -300,30 +298,18 @@
       margin-right: 0px;
      }
 
-    .work {
-      margin-bottom: 94px;
-    }
-
-    /*team*/
+      /*team*/
     
-    .team {
-      padding-top: 94px;
-    }
-
+    
     .team .section-title {
       margin-bottom: 50px;
     }
 
      .team-members {
       display: flex;
-      width: 1170px;
       align-items: center;
       margin-left: auto;
       margin-right: auto;
-      padding-left: 0;
-      padding-bottom: 94px;
-      margin-bottom: 0;
-      margin-top: 0;
      }
 
     .team {

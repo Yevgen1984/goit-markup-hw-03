@@ -16,7 +16,9 @@ html {
     --footer-link-color: #ffffff60;
     --contact-text-color: #757575;
     --studio-text-color: #000000;
-    --portfolio-border-color: #ECECEC;}
+    --portfolio-border-color: #ECECEC;
+    --border-line-color:#ECECEC;
+    --project-line-color: #EEEEEE;}
 
 li {
     list-style:
