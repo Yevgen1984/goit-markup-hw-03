@@ -280,12 +280,15 @@ address {
 
 /*footer*/
 
+.basement {
+  background-color: var(--secondary-background-color);
+}
+
 .site-basement {
     margin-top: 0;
     margin-bottom: 0;
-    padding-left: 215px;
     padding-bottom: 60px;
-    background-color: var(--secondary-background-color);    
+        
   }
 
     .site-basement .logo {

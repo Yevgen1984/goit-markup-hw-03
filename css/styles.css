@@ -40,12 +40,13 @@
   }
   
   
-  .list {
+  ul {
     list-style: none;
     padding-left: 0;
     margin: 0;
   }
-  
+
+    
   .link {
     text-decoration: none;
     color: inherit;
@@ -60,10 +61,7 @@
   address {
     font-style: normal;}
 
-    li {
-    list-style: none;
-    }
-
+    
     /*header*/
     
     /*container*/
@@ -85,11 +83,12 @@
      /*nav*/
     
   
-   .site-nav {
+    .site-nav {
     display: flex;
     align-items: center;
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 93px;
   }
 
     .site-nav .link {
@@ -240,8 +239,9 @@
 
     .features {
       display: flex;
-      padding-left: 15px;
-      padding-right: 15px;
+      justify-content: space-between;
+      padding-left: 0px;
+      padding-right: 0px;
     }
 
     .feature-title {
@@ -260,12 +260,13 @@
     
     .feature-item {
       width: 270px;
-      margin-right: 30px;
+      
+      /*margin-right: 30px;*/
       }
     
-    .feature-item:last-child {
+    /*.feature-item:last-child {
       margin-right: 0;
-    }
+    }*/
        
     /*work*/ 
 
@@ -321,8 +322,8 @@
     .team-member {
       flex-basis: calc((100% - 90px) / 4); 
       margin-right: 30px;
-      align-items:center;
 
+      align-items:center;
       background-color: var(--primary-background-color);
      }
 
@@ -354,12 +355,15 @@
 
     /*footer*/
 
+    .basement {
+      background-color: var(--secondary-background-color);   
+    }
+
     .site-basement {
       margin-top: 0;
       margin-bottom: 0;
-      padding-left: 215px;
       padding-bottom: 60px;
-      background-color: var(--secondary-background-color);    
+     
     }
 
     .site-basement .logo {
