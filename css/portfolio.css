@@ -196,47 +196,26 @@ address {
     margin-left: 8px;
 }
 
-.button.one {
-    width: 73px;
-    color: var(--primary-text-color);
-}
-
-.button.two {
-    width: 128px;
-}
-
-.button.three {
-    width: 145px;
-}
-
-.button.four {
-    width: 103px;
-}
-
-.button.fife {
-    width: 130px;
-}
-
-.button {
+.filter-btn {
     background-color: var(--section-background-color);
     cursor: pointer;
     border: none;
     font-style: 500;
     font-size: 16px;
     line-height: 1.6;
-    text-align: center;     
+    text-align: center;
+    font-family: inherit;
+    padding: 6px 22px;
+    border-radius: 4px;
+    margin-bottom: 50px;    
     }
 
 
-.button:hover, .button:focus {
+.filter-btn:hover, .filter-btn:focus {
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
     }
 
-.button.one:hover, .button.one:focus {
-    color: var(--secondary-text-color);
-    background-color: var(--accent-color);
-    }
 
    /*projects*/
 
@@ -301,14 +280,13 @@ address {
 
 /*footer*/
 
-    .site-basement {
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-left: 215px;
-        padding-bottom: 60px;
-
-        background-color: var(--secondary-background-color);    
-    }
+.site-basement {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 215px;
+    padding-bottom: 60px;
+    background-color: var(--secondary-background-color);    
+  }
 
     .site-basement .logo {
         display: inline-block;

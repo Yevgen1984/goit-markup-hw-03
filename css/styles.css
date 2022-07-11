@@ -184,6 +184,8 @@
     }
     
     .section.hero {
+      padding-top: 200px;
+      padding-bottom: 200px;
       background-color: var(--secondary-background-color);}
     
     .hero-title {
